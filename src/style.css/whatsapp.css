@@ -1,4 +1,10 @@
-#whatsapp-botao {
+ @media screen and(max-width: 768px){
+  .whatsapp-botao{
+    background-color: red;
+    }
+ }
+
+.whatsapp-botao {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -10,18 +16,19 @@
     justify-content: center;
     align-items: center;
     background-color: #1bd741;
-    box-shadow: 0 4px 8px rgba(0.5, 0.5, 0.5, 0.5);
+    
     transition: transform 0.2s ease-in-out;
+    
   }
   
-  #whatsapp-botao:hover {
+  .whatsapp-botao:hover {
     transform: scale(1.2);
   }
     
-  #whatsapp-botao img {
+  .whatsapp-botao img {
     margin-left:18px;
     width: 50%;
     height: 50%;
   }
 
-
+ 
