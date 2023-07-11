@@ -6,7 +6,6 @@ import Whatsapp from './components/whatsapp';
 function App() {
   return (
     <div className="">
-
       <Header />
       <HomePage />
       <Whatsapp />

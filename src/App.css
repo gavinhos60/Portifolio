@@ -2,13 +2,13 @@
   font-family: 'Confortaa';
   src: url('./fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
   }
- 
 
 
 
  body {
   margin: 0;
   padding: 0;
+  padding-right: 0px;
   font-family: 'Confortaa', sans-serif;
 }
 body, html{
