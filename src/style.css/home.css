@@ -3,7 +3,12 @@
     height:1007px;
     background-color: #0F0617;
 }
-
+@media screen and (max-width: 768px){
+   .frontal{
+    margin-top: 40px;
+   }
+}
+  
 .frontal {
     width: 500px;
     height: 500px;
