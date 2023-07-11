@@ -6,6 +6,7 @@
 @media screen and (max-width: 768px){
    .frontal{
     margin-top: 60px;
+    margin-left: 20px;
    }
 }
   
@@ -14,6 +15,7 @@
     height: 500px;
     border-color: 10px solid black;
     color: #fff;    
+    
 
     position: absolute;
     top: 40%;
