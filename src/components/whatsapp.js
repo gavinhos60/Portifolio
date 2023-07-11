@@ -8,7 +8,7 @@ function Whatsapp() {
     }
   
     return (
-      <div id="whatsapp-botao">
+      <div className="whatsapp-botao">
         <a href="https://wa.me/11932036594" target="_blank" rel="noreferrer">
           <img src={whatsappimg} alt="WhatsApp" onClick={handleClick} />
         </a>
