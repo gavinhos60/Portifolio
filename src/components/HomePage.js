@@ -34,7 +34,7 @@ const HomePage = () => {
           </button>
         </div>
         <div className="avatar">
-          <img src={Avatar} />
+          <img alt="avatar" src={Avatar} />
         </div>
       </div>
     </div>
