@@ -38,13 +38,24 @@
     flex: 1;
     max-width: 150px;
     text-align: center;
+    transition: transform 0.3s;
   }
   
   .linguagens {
     margin-top: 20px;
     width: 100%;
   }
+  .html {
+    margin-top: 20px;
+    width: 78%;
+  }
   
   .font {
     color: #fff;
+  }
+
+  .javascript:hover{
+    transform: scale(1.4);
+    background-color: #170924;
+    border-radius:10px;
   }

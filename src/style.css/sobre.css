@@ -1,19 +1,18 @@
 .sobre {
-    width: 100%;
-    height: auto;
+    width: 100%;    
     background-color: rgb(18, 1, 29);
     display: flex;
     justify-content: center;
     align-items: center;
-    
+       
   }
-  
+
   .h1-sobre {
     display: flex;
     justify-content: center;
     color: #ffffff;
     font-size: 32px;
-    margin-top: 30px;
+    margin-top: 80px;
   }
   
   .intro {

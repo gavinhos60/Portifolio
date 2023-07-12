@@ -9,9 +9,12 @@ const Sobre = () => {
         <p className="intro">Introdução</p>
         <div className="introducao">
           <p className="gavinhos">
-            Sou Rafael Gavinhos, desenvolvedor Full Stack apaixonado por criar
-            soluções completas e eficientes. Crio interfaces interativas e APIs
-            robustas. Comprometido com qualidade e sempre em busca de desafios
+            Sou Rafael Gavinhos, formado em Análise e desenvolvimento de
+            sistemas na UNIP (Universidade de São Paulo) e em desenvolvimento de
+            Software na ETEC Horácio Augusto da Silveiras. <br></br>
+            <br></br> Sou desenvolvedor Full Stack apaixonado por criar soluções
+            completas e eficientes. Crio interfaces interativas e APIs robustas.
+            Comprometido com qualidade e sempre em busca de desafios
             <br></br>
             <br></br>
             Tenho uma mentalidade orientada para soluções e estou sempre
