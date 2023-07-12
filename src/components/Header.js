@@ -11,6 +11,13 @@ const Header = () => {
     });
   };
 
+  const scrollToAbout = () => {
+    window.scrollTo({
+      top: 910,
+      behavior: "smooth",
+    });
+  };
+
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
@@ -23,7 +30,7 @@ const Header = () => {
           </div>
         </div>
         <div className={`right ${menuOpen ? "show-menu" : ""}`}>
-          <h1>Sobre mim</h1>
+          <h1 onClick={scrollToAbout}>Sobre mim</h1>
           <h1>Experiência</h1>
           <h1>Serviço</h1>
           <h1>Portifólio</h1>
