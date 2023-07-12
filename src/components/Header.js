@@ -14,7 +14,7 @@ const Header = () => {
   const scrollToAbout = () => {
     window.scrollTo({
       top: 910,
-      behavior: "smooth",
+      behavior: "smooth",      
     });
   };
 
