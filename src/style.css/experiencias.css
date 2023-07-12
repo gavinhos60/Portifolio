@@ -1,0 +1,50 @@
+.experiencias {
+    height: 800px;
+    width: 100%;
+    background-color: #0F0617;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .minhas-exp {
+    width: 90%;
+    max-width: 900px;
+    height: 700px;
+    margin: 0 auto;
+   
+  }
+  
+  .p-exp {
+    font-size: 26px;
+    color: #8337ff;
+    text-align: center;
+  }
+  
+  .p-hab {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .linguagens-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .javascript {
+    flex: 1;
+    max-width: 150px;
+    text-align: center;
+  }
+  
+  .linguagens {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .font {
+    color: #fff;
+  }
