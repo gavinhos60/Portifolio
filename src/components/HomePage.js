@@ -35,7 +35,7 @@ const HomePage = () => {
         </div>
         <div className="avatar">
           <img alt="avatar" src={Avatar} />
-        </div>
+        </div>       
       </div>
     </div>
   );
