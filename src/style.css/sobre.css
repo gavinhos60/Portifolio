@@ -1,0 +1,84 @@
+.sobre {
+    width: 100%;
+    height: auto;
+    background-color: rgb(18, 1, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .h1-sobre {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 32px;
+    margin-top: 30px;
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8337ff;
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  
+  .gavinhos {
+    text-align: center;
+  }
+  
+  .introducao {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    color: #fff;
+    width: 600px;
+    height: 350px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Estilos para telas menores */
+    .sobre {
+      width: 90%;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  
+    .h1-sobre {
+      font-size: 24px;
+      margin-top: 20px;
+    }
+  
+    .intro {
+      font-size: 16px;
+      margin-left: 10px;
+    }
+  
+    .introducao {
+      width: 100%;
+      height: auto;
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Estilos para telas ainda menores */
+    .h1-sobre {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  
+    .intro {
+      font-size: 14px;
+      margin-left: 5px;
+    }
+  
+    .introducao {
+      width: 100%;
+      height: auto;
+      font-size: 12px;
+      padding: 10px;
+    }
+  }
